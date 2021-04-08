@@ -23,5 +23,7 @@
     
     'data': [],
     
-    'demo': [],
+    'demo': [
+        'demo/academy_course_demo.xml',
+    ],
 }
