@@ -24,7 +24,7 @@ class AcademyCourse(models.Model):
     
     total_price = fields.Float(string='Total Price', readonly=True)
     
-    @api.onchange('base_price', 'aditional_fee')
+    @api.onchange('base_price', 'additional_fee')
     def _onchange_total_price(self):
         if self.base_price < 0.00:
             raise UserError('Base Price cannot be set as Negative.')
