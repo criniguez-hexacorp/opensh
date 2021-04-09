@@ -3,12 +3,14 @@
     <data>
         
         <!-- academy.course actions -->
-        <record id="academy_course_action" model="ir.actions.act_window">
+        <record model="ir.actions.act_window" id="academy_course_action">
             <field name="name">Courses</field>
             <field name="res_model">academy.course</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
-                <p class="o_view_nocontent_smiling_face">Create your First Course!</p>
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first course
+                </p>
             </field>
         </record>
         
@@ -18,15 +20,22 @@
         <menuitem
             id="academy_root_menu"
             name="Academy"
-            sequence="10"/>
+            sequence="1"/>
         
-        <!-- sub menus -->
+        <!-- sub menus (level 1) -->
+        <menuitem
+            id="academy_models_menu"
+            name="Academy"
+            parent="academy_root_menu"
+            sequence="2"/>
+        
+        <!-- sub menus (level 2) -->
         <menuitem
             id="academy_course_menu"
             name="Course"
+            parent="academy_models_menu"
             action="academy_course_action"
-            parent="academy_root_menu"
-            sequence="10"/>
+            sequence="3"/>
     
     </data>
 </odoo>
