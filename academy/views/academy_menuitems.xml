@@ -14,6 +14,18 @@
             </field>
         </record>
         
+        <!-- academy.session actions -->
+        <record model="ir.actions.act_window" id="academy_session_action">
+            <field name="name">Sessions</field>
+            <field name="res_model">academy.session</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first session
+                </p>
+            </field>
+        </record>
+        
         <!-- menus -->
         
         <!-- root menu -->
@@ -35,6 +47,12 @@
             name="Course"
             parent="academy_models_menu"
             action="academy_course_action"
+            sequence="3"/>
+        <menuitem
+            id="academy_session_menu"
+            name="Session"
+            parent="academy_models_menu"
+            action="academy_session_action"
             sequence="3"/>
     
     </data>
