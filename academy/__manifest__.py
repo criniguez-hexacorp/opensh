@@ -19,14 +19,15 @@
     'category': 'Training',
     'version': '0.1',
     
-    'depends': ['base'],
+    'depends': ['base', 'sale'],
     
     'data': [
         'security/academy_security.xml',
         'security/ir.model.access.csv',
         'views/academy_menuitems.xml',
         'views/academy_course_views.xml',
-        'views/academy_session_views.xml'
+        'views/academy_session_views.xml',
+        'views/sale_order_views.xml'
     ],
     
     'demo': [
