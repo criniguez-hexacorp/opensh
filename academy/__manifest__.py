@@ -24,11 +24,16 @@
     'data': [
         'security/academy_security.xml',
         'security/ir.model.access.csv',
+        
         'views/academy_menuitems.xml',
         'views/academy_course_views.xml',
         'views/academy_session_views.xml',
         'views/sale_order_views.xml',
         'views/product_template_views.xml',
+        
+        'report/academy_session_reports.xml',
+        'report/academy_session_templates.xml',
+        
         'wizard/academy_sale_order_create_views.xml'
     ],
     
