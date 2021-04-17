@@ -1,0 +1,420 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* academy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-17 14:58+0000\n"
+"PO-Revision-Date: 2021-04-17 14:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.report_academy_session_document
+msgid "<strong>Instructor:</strong>"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.report_academy_session_document
+msgid "<strong>Session Duration:</strong>"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_courses_website
+msgid "<strong>Sessions</strong>"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.menu,name:academy.academy_models_menu
+#: model:ir.ui.menu,name:academy.academy_root_menu
+msgid "Academy"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_courses_website
+msgid "Academy - Courses"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_session_website
+msgid "Academy - Session"
+msgstr ""
+
+#. module: academy
+#: model:res.groups,name:academy.group_academy_admin
+msgid "Academy / Admin"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_academy_course
+msgid "Academy Course"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_academy_session
+msgid "Academy Session"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__active
+msgid "Active"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__additional_fee
+msgid "Additional Fee"
+msgstr ""
+
+#. module: academy
+#: code:addons/academy/models/.ipynb_checkpoints/academy_course-checkpoint.py:0
+#: code:addons/academy/models/academy_course.py:0
+#, python-format
+msgid "Additional Fees cannot be less than 10.00: %s"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields.selection,name:academy.selection__academy_course__level__advanced
+msgid "Advanced"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__base_price
+msgid "Base Price"
+msgstr ""
+
+#. module: academy
+#: code:addons/academy/models/.ipynb_checkpoints/academy_course-checkpoint.py:0
+#: code:addons/academy/models/academy_course.py:0
+#, python-format
+msgid "Base Price cannot be set as Negative."
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields.selection,name:academy.selection__academy_course__level__beginner
+msgid "Beginner"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_sale_order_create_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields.selection,name:academy.selection__academy_session__state__canceled
+msgid "Canceled"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,help:academy.field_product_product__is_session_product
+#: model:ir.model.fields,help:academy.field_product_template__is_session_product
+msgid "Check this box tu use this as a Product for Session Fee"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_session__course_id
+#: model:ir.ui.menu,name:academy.academy_course_menu
+msgid "Course"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_course_view_form
+msgid "Course Form"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_course_view_tree
+msgid "Course List"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_session_website
+msgid "Course:"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.academy_course_action
+#: model_terms:ir.ui.view,arch_db:academy.academy_courses_website
+msgid "Courses"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_sale_order_create_view_form
+msgid "Create"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.academy_sale_order_create_action
+msgid "Create Sale Order"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_sale_order_create_view_form
+msgid "Create Sale Order for Session"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.actions.act_window,help:academy.academy_course_action
+msgid "Create the first course"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.actions.act_window,help:academy.academy_session_action
+msgid "Create the first session"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__create_uid
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__create_uid
+#: model:ir.model.fields,field_description:academy.field_academy_session__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__create_date
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__create_date
+#: model:ir.model.fields,field_description:academy.field_academy_session__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__description
+#: model_terms:ir.ui.view,arch_db:academy.academy_course_view_form
+msgid "Description"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_courses_website
+msgid "Description:"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__display_name
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__display_name
+#: model:ir.model.fields,field_description:academy.field_academy_session__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields.selection,name:academy.selection__academy_session__state__done
+msgid "Done"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields.selection,name:academy.selection__academy_session__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.report_academy_session_document
+msgid "Email"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_session__end_date
+msgid "End Date"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__id
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__id
+#: model:ir.model.fields,field_description:academy.field_academy_session__id
+msgid "ID"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields.selection,name:academy.selection__academy_session__state__open
+msgid "In Progress"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_session__instructor_id
+msgid "Instructor"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields.selection,name:academy.selection__academy_course__level__intermediate
+msgid "Intermediate"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course____last_update
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create____last_update
+#: model:ir.model.fields,field_description:academy.field_academy_session____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__write_uid
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__write_uid
+#: model:ir.model.fields,field_description:academy.field_academy_session__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__write_date
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__write_date
+#: model:ir.model.fields,field_description:academy.field_academy_session__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_courses_website
+#: model_terms:ir.ui.view,arch_db:academy.academy_session_website
+msgid "Last modified:"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__level
+msgid "Level"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_courses_website
+msgid "Level:"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.report_academy_session_document
+msgid "Name"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_courses_website
+msgid "No Session Currently"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.report_academy_session_document
+msgid "Phone"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_sale_order__session_id
+msgid "Related Session"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__session_id
+#: model:ir.ui.menu,name:academy.academy_session_menu
+msgid "Session"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_session_view_calendar
+msgid "Session Calendar"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_session__duration
+msgid "Session Days"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_session_view_form
+msgid "Session Form"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_sale_order__instructor_id
+msgid "Session Instructor"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_session_view_tree
+msgid "Session List"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.report,name:academy.action_report_academy_session
+msgid "Session Report"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.academy_session_action
+#: model:ir.model.fields,field_description:academy.field_academy_course__session_ids
+#: model_terms:ir.ui.view,arch_db:academy.academy_course_view_form
+msgid "Sessions"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_session__start_date
+msgid "Start Date"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_session__state
+msgid "States"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_session__student_ids
+#: model:ir.model.fields,field_description:academy.field_sale_order__student_ids
+#: model_terms:ir.ui.view,arch_db:academy.academy_session_view_form
+#: model_terms:ir.ui.view,arch_db:academy.report_academy_session_document
+#: model_terms:ir.ui.view,arch_db:academy.view_order_form_inherit_academy
+msgid "Students"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__student_ids
+msgid "Students for Sales Order"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_sale_order_create__session_student_ids
+msgid "Students in Current Session"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.academy_session_website
+msgid "Students:"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,help:academy.field_academy_sale_order_create__session_student_ids
+msgid "These are the students currently in the Session"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__name
+#: model:ir.model.fields,field_description:academy.field_academy_session__name
+msgid "Title"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_course__total_price
+#: model:ir.model.fields,field_description:academy.field_academy_session__total_price
+msgid "Total Price"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_product_product__is_session_product
+#: model:ir.model.fields,field_description:academy.field_product_template__is_session_product
+msgid "Use as Session Product"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_academy_sale_order_create
+msgid "Wizard: Quick Sale Orders for Session Students"
+msgstr ""
+
+#. module: academy
+#: model_terms:ir.ui.view,arch_db:academy.report_academy_session_document
+msgid "to"
+msgstr ""
